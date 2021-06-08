@@ -1,0 +1,18 @@
+.VC_10_1_18 :1 ;18V ac 1 Output Through Hole PCB Transformer, 10VA
+VC10118
+*STM T
+*NGS
+*PLB 1="PRI_1" 2="PRI_2" 3="SEC_1" 4="SEC_2" 5="SEC_3" 6="SEC_4"
+*MXP 6
+*DFN VC_10_1_18
+~!Manufacturer_Name (BLOCK)
+~!Manufacturer_Part_Number (VC 10/1/18)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/VC 10_1_18.pdf)
+~!Height (34.6mm)
+~!3D_Model (VC_10_1_18)
+VC_10_1_18
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

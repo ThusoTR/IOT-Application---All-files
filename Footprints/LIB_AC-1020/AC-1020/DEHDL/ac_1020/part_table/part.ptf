@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AC_1020'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nuvotem Talema", "AC-1020" (!) = "", "AC1015", "Other", "", "", "", "", "PCB Mount Current Transformer", "http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf", "23 mm"
+END_PART
+
+END.

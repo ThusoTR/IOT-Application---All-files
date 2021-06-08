@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AC1015"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AC1015")
+        (spec "default")
+    )
+)

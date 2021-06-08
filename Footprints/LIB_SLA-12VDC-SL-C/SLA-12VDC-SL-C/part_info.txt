@@ -1,0 +1,9 @@
+Manufacturer=Songle Relay
+PartNumber=SLA-12VDC-SL-C
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=6
+Version=1.3
+Released=2019-08-19 08:46:45
+Downloaded=2021-06-08 10:53:10
+3D=Y

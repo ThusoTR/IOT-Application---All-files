@@ -1,0 +1,115 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AC-1020"
+   (description "PCB Mount Current Transformer")
+   (family "XFR")
+   (package "AC1015")
+   (attribute "Datasheet Link" "http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf")
+   (attribute "Geometry.Height" "23mm")
+   (attribute "Manufacturer_Name" "Nuvotem Talema")
+   (attribute "Manufacturer_Part_Number" "AC-1020")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "AC-1020")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "AC-1020"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AC1015"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -11.9 5.56)
+      (pt 11.9 5.56)
+      (pt 11.9 -5.56)
+      (pt -11.9 -5.56)
+      (pt -11.9 5.56))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11.9 5.56)
+      (pt 11.9 5.56)
+      (pt 11.9 -5.56)
+      (pt -11.9 -5.56)
+      (pt -11.9 5.56))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.9 7.1)
+      (pt 12.9 7.1)
+      (pt 12.9 -6.56)
+      (pt -12.9 -6.56)
+      (pt -12.9 7.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -7.7 6)
+      (arc (pt -7.700 6.000) (pt -7.700 5.900) (pt -7.500 6.100) (start -180.0) (sweep 180.0))
+      (pt -7.5 6)
+      (arc (pt -7.500 6.000) (pt -7.700 5.900) (pt -7.500 6.100) (start -180.0) (sweep .0))
+      (pt -7.7 6))))
+   (leg 1 (pt -7.620 3.810) (padstack 0))
+   (leg 2 (pt 7.620 3.810) (padstack 0))
+   (leg 3 (pt 0.000 -3.810) (padstack 0))
+   (padstack 0
+    (hole 1.013)
+    (plated true)
+    (pad (layer TCOP) (round 1.519))
+    (pad (layer INNER) (round 1.519))
+    (pad (layer BCOP) (round 1.519))
+   )
+   (model "AC-1020.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

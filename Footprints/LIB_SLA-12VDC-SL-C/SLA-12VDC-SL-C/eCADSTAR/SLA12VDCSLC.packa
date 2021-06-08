@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SLA-12VDC-SL-C"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-19-08:46:45)
+    (mountForm default
+        (footprintRef "SLA12VDCSLC")
+        (spec "System")
+    )
+)

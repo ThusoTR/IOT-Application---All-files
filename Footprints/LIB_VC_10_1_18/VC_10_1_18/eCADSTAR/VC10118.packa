@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VC_10_1_18"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-02-08-12:55:13)
+    (mountForm default
+        (footprintRef "VC10118")
+        (spec "System")
+    )
+)

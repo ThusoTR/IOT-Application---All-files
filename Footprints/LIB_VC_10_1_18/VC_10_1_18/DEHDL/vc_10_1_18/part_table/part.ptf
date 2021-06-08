@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VC_10_1_18'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "BLOCK", "VC 10/1/18" (!) = "", "VC10118", "Other", "", "", "", "", "18V ac 1 Output Through Hole PCB Transformer, 10VA", "https://componentsearchengine.com/Datasheets/2/VC 10_1_18.pdf", "34.6 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SLA_12VDC_SL_C'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Songle Relay", "SLA-12VDC-SL-C" (!) = "", "SLA12VDCSLC", "Other", "", "", "", "", "Relays General Purpose Non Latching 12VDC SPDT 30A (250VAC) Max Plugin RoHS", "https://datasheet.lcsc.com/szlcsc/Ningbo-Songle-Relay-SLA-12VDC-SL-C_C125736.pdf", "20.4 mm"
+END_PART
+
+END.

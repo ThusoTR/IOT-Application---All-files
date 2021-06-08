@@ -1,0 +1,135 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "VC_10_1_18"
+   (description "18V ac 1 Output Through Hole PCB Transformer, 10VA")
+   (family "XFR")
+   (package "VC10118")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/VC 10_1_18.pdf")
+   (attribute "Geometry.Height" "34.6mm")
+   (attribute "Manufacturer_Name" "BLOCK")
+   (attribute "Manufacturer_Part_Number" "VC 10/1/18")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "VC_10_1_18")
+    (pin "PRI_1" 1 PS)
+    (pin "PRI_2" 2 PS)
+    (pin "SEC_1" 3 PS)
+    (pin "SEC_2" 4 PS)
+    (pin "SEC_3" 5 PS)
+    (pin "SEC_4" 6 PS)
+   )
+  )
+  (symbol "VC_10_1_18"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "VC10118"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.75 -38)
+      (pt 35.25 -38)
+      (pt 35.25 13)
+      (pt -7.75 13)
+      (pt -7.75 -38))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.75 13)
+      (pt 35.25 13)
+      (pt 35.25 -38)
+      (pt -7.75 -38)
+      (pt -7.75 13))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.75 14)
+      (pt 36.25 14)
+      (pt 36.25 -39)
+      (pt -8.75 -39)
+      (pt -8.75 14))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.4 0)
+      (arc (pt -8.400 0.000) (pt -8.400 0.050) (pt -8.300 -0.050) (start 180.0) (sweep 180.0))
+      (pt -8.3 0)
+      (arc (pt -8.300 0.000) (pt -8.400 0.050) (pt -8.300 -0.050) (start 180.0) (sweep -.0))
+      (pt -8.4 0)
+      (arc (pt -8.400 0.000) (pt -8.400 0.050) (pt -8.300 -0.050) (start 180.0) (sweep 180.0))
+      (pt -8.3 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 -25.000) (padstack 0))
+   (leg 3 (pt 27.500 -25.000) (padstack 0))
+   (leg 4 (pt 27.500 -20.000) (padstack 0))
+   (leg 5 (pt 27.500 -5.000) (padstack 0))
+   (leg 6 (pt 27.500 0.000) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "VC_10_1_18.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

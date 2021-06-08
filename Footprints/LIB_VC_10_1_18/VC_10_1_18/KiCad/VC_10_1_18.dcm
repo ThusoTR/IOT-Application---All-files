@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VC_10_1_18
+D 18V ac 1 Output Through Hole PCB Transformer, 10VA
+K
+F https://componentsearchengine.com/Datasheets/2/VC 10_1_18.pdf
+$ENDCMP
+#
+#End Doc Library

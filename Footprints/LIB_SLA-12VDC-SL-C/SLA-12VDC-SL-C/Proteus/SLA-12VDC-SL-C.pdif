@@ -1,0 +1,137 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SLA-12VDC-SL-C"
+   (description "Relays General Purpose Non Latching 12VDC SPDT 30A (250VAC) Max Plugin RoHS")
+   (family "RLY")
+   (package "SLA12VDCSLC")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/Ningbo-Songle-Relay-SLA-12VDC-SL-C_C125736.pdf")
+   (attribute "Geometry.Height" "20.4mm")
+   (attribute "Manufacturer_Name" "Songle Relay")
+   (attribute "Manufacturer_Part_Number" "SLA-12VDC-SL-C")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SLA-12VDC-SL-C")
+    (pin "COM_1" 1 PS)
+    (pin "COIL_1" 2 PS)
+    (pin "NO" 3 PS)
+    (pin "NC" 4 NC)
+    (pin "COM_2" 5 PS)
+    (pin "COIL_2" 6 PS)
+   )
+  )
+  (symbol "SLA-12VDC-SL-C"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SLA12VDCSLC"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -13.8 28)
+      (pt 13.8 28)
+      (pt 13.8 -4)
+      (pt -13.8 -4)
+      (pt -13.8 28))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.8 28)
+      (pt 13.8 28)
+      (pt 13.8 -4)
+      (pt -13.8 -4)
+      (pt -13.8 28))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -14.8 29)
+      (pt 14.8 29)
+      (pt 14.8 -5)
+      (pt -14.8 -5)
+      (pt -14.8 29))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 5.100 2.500) (padstack 2))
+   (leg 3 (pt 8.900 17.700) (padstack 0))
+   (leg 4 (pt 8.900 25.300) (padstack 0))
+   (leg 5 (pt -8.900 15.200) (padstack 0))
+   (leg 6 (pt -5.100 2.500) (padstack 6))
+   (padstack 0
+    (hole 2)
+    (plated true)
+    (pad (layer TCOP) (round 2.800))
+    (pad (layer INNER) (round 2.800))
+    (pad (layer BCOP) (round 2.800))
+   )
+   (padstack 2
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 6
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (model "SLA-12VDC-SL-C.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

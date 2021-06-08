@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SLA-12VDC-SL-C
+D Relays General Purpose Non Latching 12VDC SPDT 30A (250VAC) Max Plugin RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Ningbo-Songle-Relay-SLA-12VDC-SL-C_C125736.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+.AC-1020 :1 ;PCB Mount Current Transformer
+AC1015
+*STM T
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN AC-1020
+~!Manufacturer_Name (Nuvotem Talema)
+~!Manufacturer_Part_Number (AC-1020)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf)
+~!Height (23mm)
+~!3D_Model (AC-1020)
+AC-1020
+1.1!U 2.1!U 3.1!U 
