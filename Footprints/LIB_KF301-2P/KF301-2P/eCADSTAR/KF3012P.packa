@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "KF301-2P"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-04-08:24:14)
+    (mountForm default
+        (footprintRef "KF3012P")
+        (spec "System")
+    )
+)

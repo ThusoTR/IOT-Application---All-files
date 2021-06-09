@@ -1,0 +1,9 @@
+Manufacturer=Handson Technology
+PartNumber=KF301-2P
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-01-04 08:24:14
+Downloaded=2021-06-09 10:59:41
+3D=Y

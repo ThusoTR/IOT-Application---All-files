@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_13478468"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-04-08:24:14)
+    (utime 2021-01-04-08:24:14)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "KF301-2P")
+)
+
+
+(pinAssign "ECS_13478468"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-04-08:24:14)
+    (utime 2021-01-04-08:24:14)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13478468")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "KF301-2P")
+)
+
+
+(part "KF301-2P"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-04-08:24:14)
+    (utime 2021-01-04-08:24:14)
+    (packageRef "KF301-2P")
+    (pinAssignRef "ECS_13478468")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Terminal Block 5mm Pitch 2 poles")
+    (property "Manufacturer_Name" "Handson Technology")
+    (property "Manufacturer_Part_Number" "KF301-2P")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf")
+    (property "compAreaTopHeight" 10)
+)
+
+

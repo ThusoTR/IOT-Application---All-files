@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KF301_2P'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Handson Technology", "KF301-2P" (!) = "", "KF3012P", "Other", "", "", "", "", "Terminal Block 5mm Pitch 2 poles", "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf", "10 mm"
+END_PART
+
+END.
