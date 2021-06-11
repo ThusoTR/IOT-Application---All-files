@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM317T
+D Standard Regulator 1.2V to 37V 1.5A STMicroelectronics LM317T, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000455.pdf
+$ENDCMP
+#
+#End Doc Library

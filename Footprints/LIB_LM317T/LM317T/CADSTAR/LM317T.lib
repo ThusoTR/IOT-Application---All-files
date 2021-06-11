@@ -1,0 +1,18 @@
+.LM317T :1 ;Standard Regulator 1.2V to 37V 1.5A STMicroelectronics LM317T, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220
+TO255P460X1020X2008-3P
+*STM IC
+*NGS
+*PLB 1="ADJUST" 2="OUTPUT" 3="INPUT"
+*MXP 3
+*DFN LM317T
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LM317T)
+~!Mouser Part Number (511-LM317T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LM317T?qs=swDD%252BF%252Bps7c8uLyY%252B3mJJw%3D%3D)
+~!Arrow Part Number (LM317T)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm317t/stmicroelectronics)
+~!Link Datasheet (http://www.st.com/web/en/resource/technical/document/datasheet/CD00000455.pdf)
+~!Height (4.6mm)
+~!3D_Model (LM317T)
+LM317T
+1.1!U 2.1!U 3.1!U 

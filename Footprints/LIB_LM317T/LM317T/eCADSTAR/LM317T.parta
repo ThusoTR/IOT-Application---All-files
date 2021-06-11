@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_179689"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-07-22-14:47:12)
+    (utime 2020-09-01-06:25:22)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "LM317T")
+)
+
+
+(pinAssign "ECS_179689"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-07-22-14:47:12)
+    (utime 2020-09-01-06:25:22)
+    (interface
+        (port "1" (symbPinId 1) (portName "ADJUST") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "OUTPUT") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "INPUT") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_179689")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LM317T")
+)
+
+
+(part "LM317T"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-07-22-14:47:12)
+    (utime 2020-09-01-06:25:22)
+    (packageRef "LM317T")
+    (pinAssignRef "ECS_179689")
+    (interface
+        (port "1" (symbPinId 1) (portName "ADJUST") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "OUTPUT") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "INPUT") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "Standard Regulator 1.2V to 37V 1.5A STMicroelectronics LM317T, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "LM317T")
+    (property "Mouser_Part_Number" "511-LM317T")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LM317T?qs=swDD%252BF%252Bps7c8uLyY%252B3mJJw%3D%3D")
+    (property "Arrow_Part_Number" "LM317T")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/lm317t/stmicroelectronics")
+    (property "Datasheet_Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000455.pdf")
+    (property "compAreaTopHeight" 4.6)
+)
+
+
