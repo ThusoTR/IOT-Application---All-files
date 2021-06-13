@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name KF301-2P)(type Legacy)(uri "C:/Users/thu_tsh/Documents/IOT Switch/IOT-Application---All-files/Footprints/LIB_KF301-2P/KF301-2P/KiCad/KF301-2P.lib")(options "")(descr ""))
+  (lib (name IOT-SMART-SWITCH-rescue)(type Legacy)(uri "${KIPRJMOD}/IOT SMART SWITCH-rescue.lib")(options "")(descr ""))
 )
