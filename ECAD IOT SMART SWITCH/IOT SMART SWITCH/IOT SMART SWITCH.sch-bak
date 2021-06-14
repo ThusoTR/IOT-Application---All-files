@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IOT SMART SWITCH-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -175,17 +175,6 @@ F 3 "~" H 2050 6300 50  0001 C CNN
 	1    2050 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J3
-U 1 1 60BB3763
-P 1500 2600
-F 0 "J3" H 1550 2817 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1550 2726 50  0000 C CNN
-F 2 "KF301-2P:KF3012P" H 1500 2600 50  0001 C CNN
-F 3 "~" H 1500 2600 50  0001 C CNN
-	1    1500 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 2600 1800 2650
 Wire Wire Line
@@ -193,17 +182,6 @@ Wire Wire Line
 Connection ~ 1800 2650
 Wire Wire Line
 	1800 2650 1800 2700
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J2
-U 1 1 60BBB9D6
-P 1500 750
-F 0 "J2" H 1550 967 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1550 876 50  0000 C CNN
-F 2 "KF301-2P:KF3012P" H 1500 750 50  0001 C CNN
-F 3 "~" H 1500 750 50  0001 C CNN
-	1    1500 750 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 750  1800 800 
 Wire Wire Line
@@ -213,24 +191,7 @@ Wire Wire Line
 	1800 800  1800 850 
 Connection ~ 2100 800 
 Wire Wire Line
-	1300 750  1300 850 
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J1
-U 1 1 60BD9D40
-P 1450 1700
-F 0 "J1" H 1500 1917 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1500 1826 50  0000 C CNN
-F 2 "KF301-2P:KF3012P" H 1450 1700 50  0001 C CNN
-F 3 "~" H 1450 1700 50  0001 C CNN
-	1    1450 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1800 1250 1700
-Wire Wire Line
-	1750 1700 1750 1800
-Wire Wire Line
-	1300 2600 1300 2700
+	1800 1650 1800 1750
 Wire Wire Line
 	5550 1850 5550 1450
 Wire Wire Line
@@ -268,39 +229,10 @@ Text GLabel 7000 4200 0    50   Input ~ 0
 ESP_Pin_21
 Wire Wire Line
 	8200 5200 8400 5200
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J7
-U 1 1 60C33ADF
-P 9800 5800
-F 0 "J7" H 9850 6017 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 9850 5926 50  0000 C CNN
-F 2 "KF301-2P:KF3012P" H 9800 5800 50  0001 C CNN
-F 3 "~" H 9800 5800 50  0001 C CNN
-	1    9800 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 5900 9600 5850
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 60C433E9
-P 9800 6250
-F 0 "J6" H 9850 6467 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 9850 6376 50  0000 C CNN
-F 2 "KF301-2P:KF3012P" H 9800 6250 50  0001 C CNN
-F 3 "~" H 9800 6250 50  0001 C CNN
-	1    9800 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 6250 9600 6300
 Text GLabel 3950 5100 0    50   Input ~ 0
 MAINS_L
 Text GLabel 9350 6300 0    50   Input ~ 0
 MAINS_N
-Connection ~ 9600 6300
-Wire Wire Line
-	9600 6300 9600 6350
 Text GLabel 3050 4800 2    50   Input ~ 0
 12V_DC
 $Comp
@@ -767,8 +699,6 @@ F 3 "~" H 7050 950 50  0001 C CNN
 	1    7050 950 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9350 6300 9600 6300
 $Comp
 L power:GNDPWR #PWR0101
 U 1 1 60F1BA94
@@ -869,10 +799,6 @@ F 3 "" H 8950 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10100 6250 10100 6350
-Wire Wire Line
-	10100 5800 10100 5900
-Wire Wire Line
 	1450 6450 1450 5850
 Wire Wire Line
 	10000 3350 10000 3500
@@ -951,7 +877,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 1850 4300 1850
 $Comp
-L AC-1020:AC-1020 T2
+L IOT-SMART-SWITCH-rescue:AC-1020-AC-1020 T2
 U 1 1 60D00784
 P 5300 6200
 F 0 "T2" H 5700 6465 50  0000 C CNN
@@ -1042,13 +968,151 @@ Wire Wire Line
 	4200 6450 4750 6450
 Wire Wire Line
 	4750 6450 4750 5850
-Wire Wire Line
-	4750 5850 9600 5850
-Connection ~ 9600 5850
-Wire Wire Line
-	9600 5850 9600 5800
 NoConn ~ 4300 6400
 Wire Wire Line
 	3950 5100 4100 5100
 NoConn ~ 4300 5100
+$Comp
+L KF301-2P:KF301-2P J?
+U 1 1 60C9A2D8
+P 1800 1750
+F 0 "J?" H 2092 1385 50  0000 C CNN
+F 1 "KF301-2P" H 2092 1476 50  0000 C CNN
+F 2 "KF3012P" H 2450 1850 50  0001 L CNN
+F 3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" H 2450 1750 50  0001 L CNN
+F 4 "Terminal Block 5mm Pitch 2 poles" H 2450 1650 50  0001 L CNN "Description"
+F 5 "10" H 2450 1550 50  0001 L CNN "Height"
+F 6 "Handson Technology" H 2450 1450 50  0001 L CNN "Manufacturer_Name"
+F 7 "KF301-2P" H 2450 1350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2450 1250 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 2450 1150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2450 1050 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2450 950 50  0001 L CNN "Arrow Price/Stock"
+	1    1800 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L KF301-2P:KF301-2P J?
+U 1 1 60C9A796
+P 1800 850
+F 0 "J?" H 2092 485 50  0000 C CNN
+F 1 "KF301-2P" H 2092 576 50  0000 C CNN
+F 2 "KF3012P" H 2450 950 50  0001 L CNN
+F 3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" H 2450 850 50  0001 L CNN
+F 4 "Terminal Block 5mm Pitch 2 poles" H 2450 750 50  0001 L CNN "Description"
+F 5 "10" H 2450 650 50  0001 L CNN "Height"
+F 6 "Handson Technology" H 2450 550 50  0001 L CNN "Manufacturer_Name"
+F 7 "KF301-2P" H 2450 450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2450 350 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 2450 250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2450 150 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2450 50  50  0001 L CNN "Arrow Price/Stock"
+	1    1800 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L KF301-2P:KF301-2P J?
+U 1 1 60CA1AAA
+P 10550 5050
+F 0 "J?" H 10950 5300 50  0000 C CNN
+F 1 "KF301-2P" H 10950 5200 50  0000 C CNN
+F 2 "KF3012P" H 11200 5150 50  0001 L CNN
+F 3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" H 11200 5050 50  0001 L CNN
+F 4 "Terminal Block 5mm Pitch 2 poles" H 11200 4950 50  0001 L CNN "Description"
+F 5 "10" H 11200 4850 50  0001 L CNN "Height"
+F 6 "Handson Technology" H 11200 4750 50  0001 L CNN "Manufacturer_Name"
+F 7 "KF301-2P" H 11200 4650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 11200 4550 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 11200 4450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 11200 4350 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 11200 4250 50  0001 L CNN "Arrow Price/Stock"
+	1    10550 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L KF301-2P:KF301-2P J?
+U 1 1 60CA1E3D
+P 10500 6250
+F 0 "J?" H 10900 6500 50  0000 C CNN
+F 1 "KF301-2P" H 10900 6400 50  0000 C CNN
+F 2 "KF3012P" H 11150 6350 50  0001 L CNN
+F 3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" H 11150 6250 50  0001 L CNN
+F 4 "Terminal Block 5mm Pitch 2 poles" H 11150 6150 50  0001 L CNN "Description"
+F 5 "10" H 11150 6050 50  0001 L CNN "Height"
+F 6 "Handson Technology" H 11150 5950 50  0001 L CNN "Manufacturer_Name"
+F 7 "KF301-2P" H 11150 5850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 11150 5750 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 11150 5650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 11150 5550 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 11150 5450 50  0001 L CNN "Arrow Price/Stock"
+	1    10500 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KF301-2P:KF301-2P J?
+U 1 1 60C97AA0
+P 1800 2700
+F 0 "J?" H 2092 2335 50  0000 C CNN
+F 1 "KF301-2P" H 2092 2426 50  0000 C CNN
+F 2 "KF3012P" H 2450 2800 50  0001 L CNN
+F 3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" H 2450 2700 50  0001 L CNN
+F 4 "Terminal Block 5mm Pitch 2 poles" H 2450 2600 50  0001 L CNN "Description"
+F 5 "10" H 2450 2500 50  0001 L CNN "Height"
+F 6 "Handson Technology" H 2450 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "KF301-2P" H 2450 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2450 2200 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 2450 2100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2450 2000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2450 1900 50  0001 L CNN "Arrow Price/Stock"
+	1    1800 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 5100 10550 5050
+Wire Wire Line
+	4750 5850 10050 5850
+Wire Wire Line
+	10550 5150 10550 5100
+Connection ~ 10550 5100
+Wire Wire Line
+	10500 6300 10500 6250
+Wire Wire Line
+	9350 6300 10500 6300
+Wire Wire Line
+	10500 6350 10500 6300
+Connection ~ 10500 6300
+$Comp
+L KF301-2P:KF301-2P J?
+U 1 1 60D01CDA
+P 10550 5650
+F 0 "J?" H 10950 5900 50  0000 C CNN
+F 1 "KF301-2P" H 10950 5800 50  0000 C CNN
+F 2 "KF3012P" H 11200 5750 50  0001 L CNN
+F 3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" H 11200 5650 50  0001 L CNN
+F 4 "Terminal Block 5mm Pitch 2 poles" H 11200 5550 50  0001 L CNN "Description"
+F 5 "10" H 11200 5450 50  0001 L CNN "Height"
+F 6 "Handson Technology" H 11200 5350 50  0001 L CNN "Manufacturer_Name"
+F 7 "KF301-2P" H 11200 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 11200 5150 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 11200 5050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 11200 4950 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 11200 4850 50  0001 L CNN "Arrow Price/Stock"
+	1    10550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5100 10050 5850
+Wire Wire Line
+	10050 5100 10550 5100
+Text GLabel 10500 5700 0    50   Input ~ 0
+Earth
+Wire Wire Line
+	10500 5700 10550 5700
+Wire Wire Line
+	10550 5700 10550 5650
+Wire Wire Line
+	10550 5750 10550 5700
+Connection ~ 10550 5700
+Text GLabel 1800 1700 2    50   Input ~ 0
+Earth
 $EndSCHEMATC
