@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IOT SMART SWITCH-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -386,7 +386,7 @@ Wire Wire Line
 	9500 3250 9500 3350
 Text GLabel 10650 2350 2    50   Input ~ 0
 3V3_DC
-Text GLabel 7900 2350 0    50   Input ~ 0
+Text GLabel 8700 2350 0    50   Input ~ 0
 16V_DC
 $Comp
 L Device:LED D8
@@ -874,25 +874,6 @@ Wire Wire Line
 	4800 1850 5100 1850
 Wire Wire Line
 	4050 1850 4300 1850
-$Comp
-L IOT-SMART-SWITCH-rescue:AC-1020-AC-1020 T2
-U 1 1 60D00784
-P 5300 6200
-F 0 "T2" H 5700 6465 50  0000 C CNN
-F 1 "AC-1020" H 5700 6374 50  0000 C CNN
-F 2 "AC-1020:AC1015" H 5950 6300 50  0001 L CNN
-F 3 "http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf" H 5950 6200 50  0001 L CNN
-F 4 "PCB Mount Current Transformer" H 5950 6100 50  0001 L CNN "Description"
-F 5 "23" H 5950 6000 50  0001 L CNN "Height"
-F 6 "Nuvotem Talema" H 5950 5900 50  0001 L CNN "Manufacturer_Name"
-F 7 "AC-1020" H 5950 5800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 5950 5700 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 5950 5600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5950 5500 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5950 5400 50  0001 L CNN "Arrow Price/Stock"
-	1    5300 6200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 6300 6100 6900
 Wire Wire Line
@@ -971,7 +952,7 @@ Wire Wire Line
 	3950 5100 4100 5100
 NoConn ~ 4300 5100
 $Comp
-L KF301-2P:KF301-2P J2
+L IOT-SMART-SWITCH-rescue:KF301-2P-KF301-2P J2
 U 1 1 60C9A2D8
 P 1800 1750
 F 0 "J2" H 2092 1385 50  0000 C CNN
@@ -990,7 +971,7 @@ F 11 "" H 2450 950 50  0001 L CNN "Arrow Price/Stock"
 	-1   0    0    1   
 $EndComp
 $Comp
-L KF301-2P:KF301-2P J1
+L IOT-SMART-SWITCH-rescue:KF301-2P-KF301-2P J1
 U 1 1 60C9A796
 P 1800 850
 F 0 "J1" H 2092 485 50  0000 C CNN
@@ -1009,7 +990,7 @@ F 11 "" H 2450 50  50  0001 L CNN "Arrow Price/Stock"
 	-1   0    0    1   
 $EndComp
 $Comp
-L KF301-2P:KF301-2P J7
+L IOT-SMART-SWITCH-rescue:KF301-2P-KF301-2P J7
 U 1 1 60CA1AAA
 P 10550 5050
 F 0 "J7" H 10950 5300 50  0000 C CNN
@@ -1028,7 +1009,7 @@ F 11 "" H 11200 4250 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KF301-2P:KF301-2P J6
+L IOT-SMART-SWITCH-rescue:KF301-2P-KF301-2P J6
 U 1 1 60CA1E3D
 P 10500 6250
 F 0 "J6" H 10900 6500 50  0000 C CNN
@@ -1047,7 +1028,7 @@ F 11 "" H 11150 5450 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KF301-2P:KF301-2P J3
+L IOT-SMART-SWITCH-rescue:KF301-2P-KF301-2P J3
 U 1 1 60C97AA0
 P 1800 2700
 F 0 "J3" H 2092 2335 50  0000 C CNN
@@ -1080,7 +1061,7 @@ Wire Wire Line
 	10500 6350 10500 6300
 Connection ~ 10500 6300
 $Comp
-L KF301-2P:KF301-2P J8
+L IOT-SMART-SWITCH-rescue:KF301-2P-KF301-2P J8
 U 1 1 60D01CDA
 P 10550 5650
 F 0 "J8" H 10950 5900 50  0000 C CNN
@@ -1113,4 +1094,23 @@ Wire Wire Line
 Connection ~ 10550 5700
 Text GLabel 1800 1700 2    50   Input ~ 0
 Earth
+$Comp
+L AC-1020:AC-1020 T2
+U 1 1 60CA602E
+P 5300 6200
+F 0 "T2" H 5700 6465 50  0000 C CNN
+F 1 "AC-1020" H 5700 6374 50  0000 C CNN
+F 2 "AC1015" H 5950 6300 50  0001 L CNN
+F 3 "http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf" H 5950 6200 50  0001 L CNN
+F 4 "PCB Mount Current Transformer" H 5950 6100 50  0001 L CNN "Description"
+F 5 "23" H 5950 6000 50  0001 L CNN "Height"
+F 6 "Nuvotem Talema" H 5950 5900 50  0001 L CNN "Manufacturer_Name"
+F 7 "AC-1020" H 5950 5800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 5950 5700 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 5950 5600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5950 5500 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5950 5400 50  0001 L CNN "Arrow Price/Stock"
+	1    5300 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
