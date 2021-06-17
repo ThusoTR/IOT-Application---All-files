@@ -1,25 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AC-1020_AC-1020
-#
-DEF AC-1020_AC-1020 T 0 30 Y Y 1 F N
-F0 "T" 650 300 50 H V L CNN
-F1 "AC-1020_AC-1020" 650 200 50 H V L CNN
-F2 "AC1015" 650 100 50 H I L CNN
-F3 "http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf" 650 0 50 H I L CNN
-F4 "PCB Mount Current Transformer" 650 -100 50 H I L CNN "Description"
-F5 "23" 650 -200 50 H I L CNN "Height"
-F6 "Nuvotem Talema" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "AC-1020" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 800 0 200 L 50 50 0 0 P
-X 2 2 800 -100 200 L 50 50 0 0 P
-X 3 3 0 0 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_01x16
 #
 DEF Connector_Generic_Conn_01x16 J 0 40 Y N 1 F N
@@ -127,11 +108,30 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# IOT-SMART-SWITCH-rescue_KF301-2P-KF301-2P
+# IOT-SMART-SWITCH-rescue_AC-1020-AC-1020
 #
-DEF IOT-SMART-SWITCH-rescue_KF301-2P-KF301-2P J 0 30 Y Y 1 F N
+DEF IOT-SMART-SWITCH-rescue_AC-1020-AC-1020 T 0 30 Y Y 1 F N
+F0 "T" 650 300 50 H V L CNN
+F1 "IOT-SMART-SWITCH-rescue_AC-1020-AC-1020" 650 200 50 H V L CNN
+F2 "AC1015" 650 100 50 H I L CNN
+F3 "http://docs-asia.electrocomponents.com/webdocs/0776/0900766b807760fc.pdf" 650 0 50 H I L CNN
+F4 "PCB Mount Current Transformer" 650 -100 50 H I L CNN "Description"
+F5 "23" 650 -200 50 H I L CNN "Height"
+F6 "Nuvotem Talema" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AC-1020" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# IOT-SMART-SWITCH-rescue_KF301-2P-KF301-2P-IOT-SMART-SWITCH-rescue
+#
+DEF IOT-SMART-SWITCH-rescue_KF301-2P-KF301-2P-IOT-SMART-SWITCH-rescue J 0 30 Y Y 1 F N
 F0 "J" 650 300 50 H V L CNN
-F1 "IOT-SMART-SWITCH-rescue_KF301-2P-KF301-2P" 650 200 50 H V L CNN
+F1 "IOT-SMART-SWITCH-rescue_KF301-2P-KF301-2P-IOT-SMART-SWITCH-rescue" 650 200 50 H V L CNN
 F2 "KF3012P" 650 100 50 H I L CNN
 F3 "http://www.handsontec.com/dataspecs/terminal%20block-5mm.pdf" 650 0 50 H I L CNN
 F4 "Terminal Block 5mm Pitch 2 poles" 650 -100 50 H I L CNN "Description"
