@@ -1,0 +1,31 @@
+
+Power supply:
+
+--IRM-15-12 (DigiKey)
+	-- R 150
+
+
+MCU: 
+-- ESP32-S3: ESP32-S3-WROOM-1-N4 (DIY)
+	-- New and better security option
+	-- Can establish root of trust through secure boot and securely store digital ID/signatures
+	-- R143.00
+
+Relay
+-- T9GV1L14-12 (Digikey)
+	-- R 60
+-- SLA-12VDC-SL-C (JLBPCB)
+	-- 30 rands
+
+Thermistor
+
+-- B57800K0103A001 (Digikey)
+	-- R 90
+	
+Terminal block x 2:
+
+	-- DB910-7.62-3P-GN-S (JLBPCB)
+	-- 30 rands estimate
+
+	-- MKDS 5/ 3-9,5 (1714984) x 2
+	-- 30 rands estimate
