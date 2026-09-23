@@ -3,7 +3,7 @@ Power supply:
 
 --IRM-15-12 (DigiKey)
 	-- R 150
-
+--Volatage regulator: TPS62903
 
 MCU: 
 -- ESP32-S3: ESP32-S3-WROOM-1-N4 (DIY)
@@ -29,3 +29,6 @@ Terminal block x 2:
 
 	-- MKDS 5/ 3-9,5 (1714984) x 2
 	-- 30 rands estimate
+
+
+pswd: ewfsfdfsfA1212!
