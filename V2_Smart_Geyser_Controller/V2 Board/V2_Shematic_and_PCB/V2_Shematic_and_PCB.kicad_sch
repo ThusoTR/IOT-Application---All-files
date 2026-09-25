@@ -1318,544 +1318,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SLA-12VDC-SL-C:SLA-12VDC-SL-C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SLA-12VDC-SL-C"
-				(at -7.62 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SLA-12VDC-SL-C:RELAY_SLA-12VDC-SL-C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SUBMINATURE HIGH POWER RELAY"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MF" "Songle Relay"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "20.4 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SLA-12VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SLA-12VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "SLA-12VDC-SL-C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Songle Relay"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "SLA-12VDC-SL-C_0_0"
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0.635) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -3.81 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.635) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.81 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -2.54) (xy 3.175 -2.54) (xy 2.54 -1.27) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 2.54) (xy 1.905 2.54) (xy 2.54 1.27) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 1.27 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "COM1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(hide yes)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "COM2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "NC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "NO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1985,12 +1447,6 @@
 		(uuid "262de23d-2370-489c-9525-b2fb169adf14")
 	)
 	(junction
-		(at 184.15 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a0a5665-075c-412f-aded-bc4292536f4a")
-	)
-	(junction
 		(at 184.15 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2009,16 +1465,16 @@
 		(uuid "99188e93-07e6-4fac-861a-f19cba3e68f4")
 	)
 	(junction
+		(at 184.15 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5d959e-4c75-4940-ae74-e3f95af634ca")
+	)
+	(junction
 		(at 97.79 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf817a12-6419-45ba-9102-86a193c28abf")
-	)
-	(junction
-		(at 175.26 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c425e67e-c1b9-4526-8eb8-c8a0b600baba")
 	)
 	(junction
 		(at 95.25 139.7)
@@ -2158,6 +1614,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 109.22) (xy 184.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5742d2-d5af-47aa-8b9f-bafaf4ef3a20")
+	)
+	(wire
+		(pts
 			(xy 82.55 91.44) (xy 97.79 91.44)
 		)
 		(stroke
@@ -2228,26 +1694,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 167.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "788a068b-98c1-4e9e-9716-4ea57f77d1c8")
-	)
-	(wire
-		(pts
-			(xy 184.15 109.22) (xy 184.15 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7beacb90-2cd1-4b69-adef-d1ef926a6e92")
-	)
-	(wire
-		(pts
 			(xy 191.77 45.72) (xy 191.77 31.75)
 		)
 		(stroke
@@ -2268,6 +1714,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 109.22) (xy 184.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d15ed35-0246-405e-b4a3-86e15d4b2b8d")
+	)
+	(wire
+		(pts
 			(xy 119.38 114.3) (xy 95.25 114.3)
 		)
 		(stroke
@@ -2285,16 +1741,6 @@
 			(type default)
 		)
 		(uuid "92d14f95-9616-4084-a00f-e547f3b71351")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 184.15 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f88fcd-5db6-4f9b-9517-3f9110b5f18c")
 	)
 	(wire
 		(pts
@@ -2358,16 +1804,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 109.22) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b14e6ed4-d442-439a-a719-83f4fbc65cd0")
-	)
-	(wire
-		(pts
 			(xy 82.55 139.7) (xy 95.25 139.7)
 		)
 		(stroke
@@ -2395,6 +1831,16 @@
 			(type default)
 		)
 		(uuid "c77ff2e9-3235-4ce5-ada7-89a8561476fe")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c972c621-80e3-4b32-ac80-12666c0d6dbd")
 	)
 	(wire
 		(pts
@@ -2633,6 +2079,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 193.04 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0665c7db-4b53-425b-b189-9a960b94d0b5")
+		(property "Reference" "R4"
+			(at 195.58 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "453k"
+			(at 195.58 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 191.262 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C204515.pdf"
+			(at 193.04 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0805-FX-4533ELF"
+			(at 193.04 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C204515"
+			(at 193.04 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "022ad456-50f7-4364-83b9-0de5e1a42a4c")
+		)
+		(pin "1"
+			(uuid "1bfae4fc-3e6d-43be-8f67-106332a51f20")
+		)
+		(instances
+			(project "V2_Shematic_and_PCB"
+				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 176.53 91.44 90)
 		(unit 1)
@@ -2664,7 +2214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprintsInductor:IND_BOURNS_SRN8040"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2675,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2041438.pdf"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2697,6 +2247,28 @@
 				)
 			)
 		)
+		(property "MPN" "SRN8040-1R0Y"
+			(at 176.53 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2041438"
+			(at 176.53 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b0edf37-e084-41a8-a1a6-fd2ad63ab95c")
 		)
@@ -2707,88 +2279,6 @@
 			(project "V2_Shematic_and_PCB"
 				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 213.36 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "193c02dd-7333-4abd-abe8-7a1d042982f5")
-		(property "Reference" "C3"
-			(at 217.17 110.4899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 217.17 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.3252 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9e38ef2f-2780-49a6-826c-e4bc873881f9")
-		)
-		(pin "1"
-			(uuid "97f8d478-fa84-4c52-a328-6688fadf171a")
-		)
-		(instances
-			(project "V2_Shematic_and_PCB"
-				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2874,7 +2364,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 109.22 270)
+		(at 193.04 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2883,29 +2373,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3219dab4-b042-4436-8e26-b8865b57870e")
-		(property "Reference" "R1"
-			(at 171.45 102.87 90)
+		(uuid "38bfc662-21b7-4903-b5b5-518782a1c8ab")
+		(property "Reference" "R3"
+			(at 195.58 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 171.45 105.41 90)
+		(property "Value" "100k"
+			(at 195.58 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 171.45 107.442 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 191.262 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,8 +2407,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 109.22 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907217.pdf"
+			(at 193.04 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2927,7 +2419,29 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 109.22 0)
+			(at 193.04 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0805F1003TS"
+			(at 193.04 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2907217"
+			(at 193.04 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,15 +2452,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4e021cec-072f-4331-b939-d2eb8ed0f36e")
+			(uuid "efba7889-19b8-451b-8024-c90a4f498e8c")
 		)
 		(pin "1"
-			(uuid "6f259d9a-d7bd-4b29-bba0-149072f8504e")
+			(uuid "bf2d5127-1c6f-483c-8326-b151f47aac9e")
 		)
 		(instances
 			(project "V2_Shematic_and_PCB"
 				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3130,232 +2644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SLA-12VDC-SL-C:SLA-12VDC-SL-C")
-		(at 252.73 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dd232ce-e81e-4815-be04-6439506de491")
-		(property "Reference" "K1"
-			(at 252.73 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SLA-12VDC-SL-C"
-			(at 252.73 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SLA-12VDC-SL-C:RELAY_SLA-12VDC-SL-C"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SUBMINATURE HIGH POWER RELAY"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Songle Relay"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "20.4 mm"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SLA-12VDC-SL-C/Songle+Relay/view-part/?ref=eda"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" ""
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SLA-12VDC-SL-C/Songle+Relay/view-part/?ref=snap"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "SLA-12VDC-SL-C"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Songle Relay"
-			(at 252.73 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "NO"
-			(uuid "a84ed553-75c1-4a71-91e3-16e3d19eaf0d")
-		)
-		(pin "NC"
-			(uuid "f0eda014-ba2b-4d8e-ba41-78b740136791")
-		)
-		(pin "COM1"
-			(uuid "bead4ce0-422e-47a0-9d4f-7fd8254156a2")
-		)
-		(pin "COM2"
-			(uuid "cf75eaa8-14bc-46d7-9bd9-5eb3d2bb3cae")
-		)
-		(pin "C2"
-			(uuid "e7e96377-8d51-4a53-907a-3366854599e3")
-		)
-		(pin "C1"
-			(uuid "7275fd3d-78ef-4fe6-a19e-bad65ff87173")
-		)
-		(instances
-			(project "V2_Shematic_and_PCB"
-				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 105.41 128.27 0)
 		(unit 1)
@@ -3378,7 +2666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "3.3nF"
 			(at 109.22 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +2677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.3752 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3400,7 +2688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1613.pdf"
 			(at 105.41 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -3422,6 +2710,28 @@
 				)
 			)
 		)
+		(property "MPN" "LCSC Part #"
+			(at 105.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C1613"
+			(at 105.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58e26102-1f42-4f48-ad8e-fffbb4bd8efa")
 		)
@@ -3432,6 +2742,110 @@
 			(project "V2_Shematic_and_PCB"
 				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 213.36 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e5bb549-342c-4b75-8228-b22f478a94bf")
+		(property "Reference" "C3"
+			(at 217.17 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 217.17 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 214.3252 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3010429.pdf"
+			(at 213.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT21BD70J226ME13L"
+			(at 213.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C3010429"
+			(at 213.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d60c3b2e-247e-4d23-990a-1555f9ac9430")
+		)
+		(pin "1"
+			(uuid "a30863b6-53ce-4ff2-9dcc-f70c68477c7c")
+		)
+		(instances
+			(project "V2_Shematic_and_PCB"
+				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3482,7 +2896,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2167423.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15850.pdf"
 			(at 82.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3504,7 +2918,18 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2167423"
+		(property "LCSC Part #" "C15850"
+			(at 82.55 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 82.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3610,170 +3035,6 @@
 			(project "V2_Shematic_and_PCB"
 				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 105.41 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "974f8cde-6ac1-40bb-b465-45b48de6c5cb")
-		(property "Reference" "R2"
-			(at 195.58 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 195.58 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.818 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1f05f12f-7ca5-40f5-b903-f6853620cd00")
-		)
-		(pin "1"
-			(uuid "467c7a57-5dee-47ee-b01b-46707dc045de")
-		)
-		(instances
-			(project "V2_Shematic_and_PCB"
-				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b355f41d-8e28-42fe-ba24-65e284437c49")
-		(property "Reference" "R3"
-			(at 195.58 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 195.58 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.818 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "108cef87-8a9e-4513-a3e5-acbc9c939872")
-		)
-		(pin "1"
-			(uuid "cc8c57cb-d1d3-4eb2-acb3-4fdc104155e9")
-		)
-		(instances
-			(project "V2_Shematic_and_PCB"
-				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4045,7 +3306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPJ0009A"
+		(property "Footprint" "footprintsTPS62903RPJR:RPJ0009A"
 			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4069,7 +3330,29 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Efficiency and Low IQ Buck Converte"
+			(at 139.7 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS62903RPJR"
+			(at 139.7 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2866502"
 			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4111,6 +3394,108 @@
 			(project "V2_Shematic_and_PCB"
 				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e09dd690-8a15-4741-abe0-f52a143dd912")
+		(property "Reference" "R1"
+			(at 171.45 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 171.45 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 171.45 107.442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907217.pdf"
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRC0805F1003TS"
+			(at 171.45 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2907217"
+			(at 171.45 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1bc25d59-6762-4cf3-bbb4-f6bc5aaf9cee")
+		)
+		(pin "1"
+			(uuid "6c42b4f1-9835-4128-bc4b-620cb72c484b")
+		)
+		(instances
+			(project "V2_Shematic_and_PCB"
+				(path "/ac98abae-ce0c-47cc-9f44-8efe46af5eb9"
+					(reference "R1")
 					(unit 1)
 				)
 			)
