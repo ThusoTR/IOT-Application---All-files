@@ -5,4 +5,5 @@
 	(lib (name "footprintsInductor") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/ul_SRN8040-1R0Y/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "footprintsTPS62903RPJR") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/ul_TPS62903RPJR/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "SLA-12VDC-SL-C") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/SLA-12VDC-SL-C") (options "") (descr ""))
+	(lib (name "AC-1020") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/LIB_AC-1020/AC-1020/KiCad") (options "") (descr ""))
 )
