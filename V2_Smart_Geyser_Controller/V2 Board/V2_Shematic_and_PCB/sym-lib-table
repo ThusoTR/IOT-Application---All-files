@@ -5,4 +5,5 @@
 	(lib (name "SLA-12VDC-SL-C") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/SLA-12VDC-SL-C/SLA-12VDC-SL-C.kicad_sym") (options "") (descr ""))
 	(lib (name "2026-09-19_18-21-30") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/ul_TPS62903RPJR/KiCADv6/2026-09-19_18-21-30.kicad_sym") (options "") (descr ""))
 	(lib (name "AC-1020") (type "Legacy") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/LIB_AC-1020/AC-1020/KiCad/AC-1020.lib") (options "") (descr ""))
+	(lib (name "ZMPT101B") (type "KiCad") (uri "C:/Users/tshis/Documents/GitHub/IOT-Application---All-files/V2_Smart_Geyser_Controller/Component Library/ZMPT101B/ZMPT101B.kicad_sym") (options "") (descr ""))
 )
